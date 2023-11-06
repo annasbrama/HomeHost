@@ -1,0 +1,25 @@
+* {
+    /*reset das margens e do padding do navegador*/
+    margin: 0px;
+    padding: 0px;
+    /* altera a familia de fontes do elemento*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+.navbar-container {
+    /*largura*/
+    width: 100%;
+    /*altera a cor de fundo*/
+    background-color: #232A31;
+    height: 80px;
+    /*em= representa uma vez o tamanho da fonte definida no elemento pai. Ex: se no pai foi definida fonte 10px e o filho tem 1em, o tamanho do filho será de 10px e assim por diante. Caso o pai não tenha um tamanho definida ele irá usar como base 16px que é a fonte do navegador*/
+    padding: 0 2em;
+}
