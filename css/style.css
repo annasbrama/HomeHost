@@ -93,5 +93,89 @@ nav {
     background-size: cover;
     padding: 10em 0;
     position: relative;
+    text-align: center;
+}
+
+.main-banner h1,
+.main-banner p {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 32px;
+}
+
+/* especialidades */
+
+.specialties-container {
+    padding: 5em 0;
+}
+
+.specialties-container ul {
+    display: flex;
+    /* flex-direction: row; e flex-wrap: nowrap; mesmo não estando presente estará como padrão na página*/
+    width: 90%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.specialties-container ul li {
+    flex: 1 1 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.fa-solid {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-halved {
+    color: #2cc76a
+}
+
+.fa-rocket {
+    color: #ef3f29;
+}
+
+.fa-comments {
+    color: #EF8F29;
+}
+
+.specialties-container ul li h3 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.specialties-container ul li p {
+    /* espaçamento entre as linhas */
+    line-height: 24px;
+    color: #70747a;
+}
+
+/* preços */
+
+.pricing-container {
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.pricing-container h2 {
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+.pricing-container p {
+    font-size: 20px;
+}
+
+.plans-container {
+    display: flex;
     
 }
