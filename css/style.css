@@ -177,5 +177,83 @@ nav {
 
 .plans-container {
     display: flex;
+    /* space-between: utiliza o espaçamento entre os itens e dependerá de quanto resta no espaço do item pai; space-around: faz o mesmo que o between com a diferença que tbm será colocado nas suas laterais */
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.plans-container .plan {
+        flex: 1 1 200px;
+        max-width: 300px;
+        margin: 0 20px;
+
+    }
+
+.plans-container .plan ul {
+        list-style: none;
+        padding: 0;
+    }
+
+.plan li {
+    height: 70px;
+    line-height: 70px;
+    background-color: #e8e9ea;
+    color: #333; 
+}
+
+.plan .price { 
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2dd79a;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin: 0 auto;
+    top: 40px;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    background-color: #202b34;
+    color: #fff;
+    font-weight: bold;
+}
+
+.plan .plan-btn {
+    background-color: #2cc76a;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    /* mudar para maõzinha do link no cursor do mouse */
+    cursor: pointer;
+}
+
+.plan .recommended {
+    background-color: #f45c57;
+}
+
+/* domain */
+
+.searchdomain-container {
+    background-color: #34454e;
+    text-align: center;
+    padding: 5em 0;
     
+}
+.searchdomain-container h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
